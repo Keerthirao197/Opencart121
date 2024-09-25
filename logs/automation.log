@@ -1,0 +1,41 @@
+2024-09-24 13:51:37.752 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  D:\Automation Testing\Selenium Practice\Opencart121\grouping.xml
+
+2024-09-24 13:53:00.822 [TestNG-tests-1] INFO  testCases.TC001_AccountRegistrationTest - *****Starting TC001_AccountRegistrationTest*****
+2024-09-24 13:53:01.033 [TestNG-tests-1] INFO  testCases.TC001_AccountRegistrationTest - *****clicked on my account link*****
+2024-09-24 13:53:02.354 [TestNG-tests-1] INFO  testCases.TC001_AccountRegistrationTest - *****clicked on registration link*****
+2024-09-24 13:53:02.360 [TestNG-tests-1] INFO  testCases.TC001_AccountRegistrationTest - *****Providing customer details*****
+2024-09-24 13:53:05.883 [TestNG-tests-1] INFO  testCases.TC001_AccountRegistrationTest - *****validating Expected Message*****
+2024-09-24 13:53:05.968 [TestNG-tests-1] INFO  testCases.TC001_AccountRegistrationTest - *****Finished TC001_AccountRegistrationTest*****
+2024-09-24 13:53:31.884 [TestNG-tests-1] INFO  testCases.TC002_LoginTest - *****Starting TC002_LoginTest******
+2024-09-24 13:53:32.000 [TestNG-tests-1] INFO  testCases.TC002_LoginTest - *****clicked on my account link*****
+2024-09-24 13:53:34.521 [TestNG-tests-1] INFO  testCases.TC002_LoginTest - *****clicked on Login link*****
+2024-09-24 13:53:39.917 [TestNG-tests-1] INFO  testCases.TC002_LoginTest - *****Finished TC002_LoginTest******
+2024-09-24 13:55:47.743 [main] DEBUG org.testng.TestNG - suiteXmlPath: "D:\Automation Testing\Selenium Practice\Opencart121\grouping.xml"
+2024-09-24 13:55:48.302 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  D:\Automation Testing\Selenium Practice\Opencart121\grouping.xml
+
+2024-09-24 13:55:58.435 [TestNG-tests-1] INFO  testCases.TC001_AccountRegistrationTest - *****Starting TC001_AccountRegistrationTest*****
+2024-09-24 13:55:58.596 [TestNG-tests-1] INFO  testCases.TC001_AccountRegistrationTest - *****clicked on my account link*****
+2024-09-24 13:55:59.602 [TestNG-tests-1] INFO  testCases.TC001_AccountRegistrationTest - *****clicked on registration link*****
+2024-09-24 13:55:59.604 [TestNG-tests-1] INFO  testCases.TC001_AccountRegistrationTest - *****Providing customer details*****
+2024-09-24 13:56:01.652 [TestNG-tests-1] INFO  testCases.TC001_AccountRegistrationTest - *****validating Expected Message*****
+2024-09-24 13:56:01.726 [TestNG-tests-1] INFO  testCases.TC001_AccountRegistrationTest - *****Finished TC001_AccountRegistrationTest*****
+2024-09-24 13:56:08.631 [TestNG-tests-1] INFO  testCases.TC002_LoginTest - *****Starting TC002_LoginTest******
+2024-09-24 13:56:08.771 [TestNG-tests-1] INFO  testCases.TC002_LoginTest - *****clicked on my account link*****
+2024-09-24 13:56:09.396 [TestNG-tests-1] INFO  testCases.TC002_LoginTest - *****clicked on Login link*****
+2024-09-24 13:56:11.082 [TestNG-tests-1] INFO  testCases.TC002_LoginTest - *****Finished TC002_LoginTest******
+2024-09-24 22:55:47.886 [main] DEBUG org.testng.TestNG - suiteXmlPath: "D:\Automation Testing\Selenium Practice\Opencart121\master.xml"
+2024-09-24 22:57:51.421 [main] DEBUG org.testng.TestNG - suiteXmlPath: "D:\Automation Testing\Selenium Practice\Opencart121\master.xml"
+2024-09-24 23:01:56.488 [main] DEBUG org.testng.TestNG - suiteXmlPath: "D:\Automation Testing\Selenium Practice\Opencart121\master.xml"
+2024-09-24 23:14:11.267 [main] DEBUG org.testng.TestNG - suiteXmlPath: "D:\Automation Testing\Selenium Practice\Opencart121\master.xml"
+2024-09-24 23:14:21.379 [main] INFO  testCases.TC001_AccountRegistrationTest - *****Starting TC001_AccountRegistrationTest*****
+2024-09-24 23:14:21.569 [main] INFO  testCases.TC001_AccountRegistrationTest - *****clicked on my account link*****
+2024-09-24 23:14:23.563 [main] INFO  testCases.TC001_AccountRegistrationTest - *****clicked on registration link*****
+2024-09-24 23:14:23.568 [main] INFO  testCases.TC001_AccountRegistrationTest - *****Providing customer details*****
+2024-09-24 23:14:25.623 [main] INFO  testCases.TC001_AccountRegistrationTest - *****validating Expected Message*****
+2024-09-24 23:14:25.689 [main] INFO  testCases.TC001_AccountRegistrationTest - *****Finished TC001_AccountRegistrationTest*****
+2024-09-24 23:14:34.367 [main] INFO  testCases.TC002_LoginTest - *****Starting TC002_LoginTest******
+2024-09-24 23:14:34.480 [main] INFO  testCases.TC002_LoginTest - *****clicked on my account link*****
+2024-09-24 23:14:35.143 [main] INFO  testCases.TC002_LoginTest - *****clicked on Login link*****
+2024-09-24 23:14:36.521 [main] INFO  testCases.TC002_LoginTest - *****Finished TC002_LoginTest******

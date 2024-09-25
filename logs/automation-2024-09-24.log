@@ -1,0 +1,40 @@
+2024-09-23 22:44:06.363 [TestNG-tests-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+2024-09-23 22:44:06.409 [TestNG-tests-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+2024-09-23 22:44:06.411 [TestNG-tests-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2024-09-23 22:44:06.413 [TestNG-tests-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+2024-09-23 22:44:06.452 [TestNG-tests-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+2024-09-23 22:44:06.475 [TestNG-tests-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2024-09-23 22:44:06.477 [TestNG-tests-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+2024-09-23 22:44:06.514 [TestNG-tests-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+2024-09-23 22:44:06.516 [TestNG-tests-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2024-09-23 22:44:06.517 [TestNG-tests-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+2024-09-23 22:44:06.613 [TestNG-tests-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+2024-09-23 22:44:06.614 [TestNG-tests-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2024-09-23 22:44:06.625 [TestNG-tests-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+2024-09-23 22:44:06.792 [TestNG-tests-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+2024-09-23 22:44:06.794 [TestNG-tests-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2024-09-23 22:44:06.795 [TestNG-tests-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+2024-09-23 22:44:06.866 [TestNG-tests-1] INFO  testCases.TC003_LoginDDT - *****Started TC003_LoginDDT*****
+2024-09-23 22:44:10.084 [TestNG-tests-1] INFO  testCases.TC003_LoginDDT - *****Finished TC003_LoginDDT*****
+2024-09-23 22:44:10.093 [TestNG-tests-1] INFO  testCases.TC003_LoginDDT - *****Started TC003_LoginDDT*****
+2024-09-23 22:44:12.634 [TestNG-tests-1] INFO  testCases.TC003_LoginDDT - *****Finished TC003_LoginDDT*****
+2024-09-23 22:44:12.644 [TestNG-tests-1] INFO  testCases.TC003_LoginDDT - *****Started TC003_LoginDDT*****
+2024-09-23 22:44:15.223 [TestNG-tests-1] INFO  testCases.TC003_LoginDDT - *****Started TC003_LoginDDT*****
+2024-09-23 22:44:26.784 [TestNG-tests-1] INFO  testCases.TC003_LoginDDT - *****Finished TC003_LoginDDT*****
+2024-09-23 22:44:26.798 [TestNG-tests-1] INFO  testCases.TC003_LoginDDT - *****Started TC003_LoginDDT*****
+2024-09-23 22:44:31.724 [TestNG-tests-1] INFO  testCases.TC003_LoginDDT - *****Finished TC003_LoginDDT*****
+2024-09-23 23:06:23.659 [main] DEBUG org.testng.TestNG - suiteXmlPath: "D:\Automation Testing\Selenium Practice\Opencart121\grouping.xml"
+2024-09-23 23:06:24.210 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  D:\Automation Testing\Selenium Practice\Opencart121\grouping.xml
+
+2024-09-23 23:06:34.349 [TestNG-tests-1] INFO  testCases.TC001_AccountRegistrationTest - *****Starting TC001_AccountRegistrationTest*****
+2024-09-23 23:06:34.532 [TestNG-tests-1] INFO  testCases.TC001_AccountRegistrationTest - *****clicked on my account link*****
+2024-09-23 23:06:35.727 [TestNG-tests-1] INFO  testCases.TC001_AccountRegistrationTest - *****clicked on registration link*****
+2024-09-23 23:06:35.730 [TestNG-tests-1] INFO  testCases.TC001_AccountRegistrationTest - *****Providing customer details*****
+2024-09-23 23:06:37.865 [TestNG-tests-1] INFO  testCases.TC001_AccountRegistrationTest - *****validating Expected Message*****
+2024-09-23 23:06:37.926 [TestNG-tests-1] INFO  testCases.TC001_AccountRegistrationTest - *****Finished TC001_AccountRegistrationTest*****
+2024-09-23 23:06:48.080 [TestNG-tests-1] INFO  testCases.TC002_LoginTest - *****Starting TC002_LoginTest******
+2024-09-23 23:06:48.215 [TestNG-tests-1] INFO  testCases.TC002_LoginTest - *****clicked on my account link*****
+2024-09-23 23:06:50.671 [TestNG-tests-1] INFO  testCases.TC002_LoginTest - *****clicked on Login link*****
+2024-09-23 23:06:53.894 [TestNG-tests-1] INFO  testCases.TC002_LoginTest - *****Finished TC002_LoginTest******
+2024-09-24 13:51:37.137 [main] DEBUG org.testng.TestNG - suiteXmlPath: "D:\Automation Testing\Selenium Practice\Opencart121\grouping.xml"
