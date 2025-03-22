@@ -31,7 +31,8 @@ public static WebDriver driver;
 public Logger logger;
 public Properties p;
 	
-	@BeforeClass(groups={"sanity","Regression","Master","DataDriven"})
+	//@BeforeClass(groups={"sanity","Regression","Master","DataDriven"})
+	/*@BeforeClass(groups="sanity")
 	@Parameters({"OS","browser"})
 	public void setup(String os,String br) throws InterruptedException, IOException 
 	{
@@ -41,7 +42,7 @@ public Properties p;
 		p=new Properties();
 		p.load(file);
 		
-		logger =LogManager.getLogger(this.getClass());
+		logger =LogManager.getLogger(this.getClass());*/
 		
 		//remote Selenium grid
 		/*if(p.getProperty("execution_env").equalsIgnoreCase("remote"));
@@ -77,7 +78,18 @@ public Properties p;
 		
 		//local Selenium grid
 		
-	if(p.getProperty("execution_env").equalsIgnoreCase("local"))
+		@BeforeClass(groups="sanity")
+		public void setup() throws InterruptedException, IOException 
+		{
+
+			//Loading config.properties file
+			FileReader file=new FileReader("./src//test//resources//config.properties");
+			p=new Properties();
+			p.load(file);
+			
+			logger =LogManager.getLogger(this.getClass());
+		
+	/*if(p.getProperty("execution_env").equalsIgnoreCase("local"))
 		{
 		switch(br.toLowerCase())
 		{
@@ -86,8 +98,8 @@ public Properties p;
 		case "firefox" : driver=new FirefoxDriver();break;
 		default : System.out.println("Invalid browser name");return;
 
-		}
-	}
+		}*/
+	//}
 		
 		driver=new ChromeDriver();
 		driver.manage().deleteAllCookies();
@@ -129,20 +141,20 @@ public Properties p;
 		return generatedAlphaNumeric;
 	}
 	
-	public String captureScreen(String tname) throws IOException
-	{
-		String timeStamp =new SimpleDateFormat("yyyyMMddhhmmss").format(new Date());
+	public String captureScreen(String tname) throws IOException {
+
+		String timeStamp = new SimpleDateFormat("yyyyMMddhhmmss").format(new Date());
+				
+		TakesScreenshot takesScreenshot = (TakesScreenshot) driver;
+		File sourceFile = takesScreenshot.getScreenshotAs(OutputType.FILE);
 		
-		TakesScreenshot takeScreenshot=(TakesScreenshot) driver;
-		File sourceFile=takeScreenshot.getScreenshotAs(OutputType.FILE);
-		
-		String targetFilePath=System.getProperty("user.dir")+"\\screenshots\\"+tname+"_"+timeStamp+".png";
-		File targetFile =new File(targetFilePath);
+		String targetFilePath=System.getProperty("user.dir")+"\\screenshots\\" + tname + "_" + timeStamp + ".png";
+		File targetFile=new File(targetFilePath);
 		
 		sourceFile.renameTo(targetFile);
-		
+			
 		return targetFilePath;
-				
+
 	}
 
 }
